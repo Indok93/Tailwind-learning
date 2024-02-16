@@ -24,8 +24,6 @@ export const GenreList = () => {
         getData()
     }, [setGenreData, supabase])
 
-    console.log(genreData);
-
   return (
     <nav>
         <ul>

@@ -8,6 +8,7 @@ export const Navbar = () => {
             <li><NavLink to="posters" className="text-blue-500 hover:text-blue-700">Posters</NavLink></li>
             <li><NavLink to="about" className="text-blue-500 hover:text-blue-700">About</NavLink></li>
             <li><NavLink to="contact" className="text-blue-500 hover:text-blue-700">Contact</NavLink></li>
+            <li><NavLink to="login" className="text-blue-500 hover:text-blue-700">Login</NavLink></li>
         </ul>
     </nav>
   )
